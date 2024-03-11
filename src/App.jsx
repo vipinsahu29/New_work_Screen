@@ -1,14 +1,14 @@
 import "./App.css";
 import Home from "./pages/Home";
 import SideMenu from "./components/SideMenu/SideMenu";
-import { useState } from "react";
+import { RouterProvider } from "react-router-dom";
+import router from './routes'
 
 function App() {
-  const [isClose, setIsClose] =  useState(false)
   return (
     <div style={{ display: "flex", width:'100%' }}>
       <SideMenu />
-      <Home />
+      <RouterProvider router={router} />
     </div>
   );
 }
