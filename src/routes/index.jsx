@@ -1,7 +1,7 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import { userRoutes } from "./routesPathFiles";
-import AdMediaUpload from "../pages/AdDrop/AdMediaUpload";
+import MediaUploads from "../pages/AdDrop/MediaUploads/MediaUploads";
 
 const router = createBrowserRouter([
   {
@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   },
   {
     path: userRoutes.adDropMedia,
-    element: <AdMediaUpload />,
+    element: <MediaUploads/>,
   },
 ]);
 export default router
