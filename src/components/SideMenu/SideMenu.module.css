@@ -1,0 +1,149 @@
+.cardSideMenu {
+  top: 0px;
+  left: -1px;
+  width: 13%;
+  min-width: 210px;
+  height: 1000px;
+  background-color: #06367a;
+  align-items: center;
+  padding-right: 20px;
+  color: #ffffff;
+  transition: ease-out .3s, top ease .3s .3s; transform: ease .3s;
+  /* transition-duration: 300s ease-in-out; */
+}
+.closeMenu {
+  display: flex;
+  top: 0px;
+  left: 0px;
+  width: 68px;
+  height: 1000px;
+  background-color: #06367a;
+  align-items: center;
+  margin-right: 30px;
+  padding-top: 30px;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.subContainer {
+  display: flex;
+  top: 10px;
+}
+.iconHome {
+  color: #ffffff;
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+
+.textMenu {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 20px;
+}
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+.menuItemsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItems {
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  padding-left: 30px;
+  color: #ffffff;
+}
+.textMenuItem {
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 24px;
+  position: sticky;
+}
+
+.adDropItems {
+  display: flex;
+  justify-content: flex-start;
+  gap: 14px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  padding-left: 30px;
+  flex-direction: column;
+  position: relative;
+  width: 150px;
+  margin-left: 20px;
+}
+.paddingCls {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 24px;
+  padding-left: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.textMenuItem:hover {
+  color: #06367a;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 24px;
+  background-color: #ffffff;
+  padding-left: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 130px;
+}
+.smallMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-self: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.paddingCls:hover {
+  background-color: #ffffff;
+  color: #06367a;
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 24px;
+  width: 105px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.menuItems:hover {
+  color: #06367a;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 24px;
+  background-color: #ffffff;
+  /* padding:2px; */
+  border-radius: 8px;
+  cursor: pointer;
+  /* width: 130px; */
+}
+
+.smallMenu:hover {
+  display: flex;
+  align-self: center;
+  color: #06367a;
+  cursor: pointer;
+  background-color: #ffffff;
+}
